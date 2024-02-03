@@ -4,6 +4,8 @@ function App() {
   return (
     <>
       <h1>ফাতেমাতুজ জোহরা মহিলা মাদরাসা</h1>
+
+      <h2>Coming Soon</h2>
     </>
   );
 }
