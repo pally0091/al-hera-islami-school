@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>ফাতেমাতুজ জোহরা মহিলা মাদরাসা</h1>
+      <h1>Al-Hera-Islamic-School</h1>
 
       <h2>Coming Soon</h2>
       <button
