@@ -1,11 +1,15 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <h1>Al Hera International Madrasah</h1>
+      <Navbar />
 
-      <h6>Coming Soon</h6>
+      <div className=" border border-black">
+        <h6>Coming Soon</h6>
+        <h6>Coming Soon</h6>
+      </div>
     </>
   );
 }
