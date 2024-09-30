@@ -1,3 +1,3 @@
-tailwind
+# Al Hera Intl Madrasah Website
 
-flowbite
+Welcome to the official repository for **Al Hera International School & Madrasah**. This project is designed to provide a comprehensive, user-friendly website for the institution, integrating modern education with Islamic teachings.
