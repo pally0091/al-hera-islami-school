@@ -1,6 +1,6 @@
 const DescriptionSection = () => {
   return (
-    <section className="bg-white py-12 px-6 md:px-20 text-center">
+    <section className="py-12 px-6 md:px-20 text-center">
       <h2 className="text-3xl font-bold text-[#1E3A8A] mb-6">
         আল হেরা ইন্টারন্যাশনাল মাদ্রাসা সম্পর্কে
       </h2>
