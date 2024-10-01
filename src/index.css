@@ -11,16 +11,16 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-primary {
+.primary {
   color: #1e3a8a;
 }
-secondary {
+.secondary {
   color: #f4c95d;
 }
-background {
+.background {
   color: #f3f4f6;
 }
-accent {
+.accent {
   color: #2d8c7c;
 }
 h1,

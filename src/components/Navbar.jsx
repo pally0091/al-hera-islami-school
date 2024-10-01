@@ -2,13 +2,13 @@ const NavLogo = () => {
   return (
     <div className="flex items-center gap-2">
       <img
-        className="w-20 h-20"
+        className="w-16 h-16 md:w-20 md:h-20"
         src="/Logo.png"
         alt="Al Hera Logo"
       />
       <div className="text-left">
         <h1>Al Hera International Madrasah</h1>
-        <h3 className="hidden md:block">আল হেরা ইন্টারন্যাশনাল মাদ্রাসা</h3>
+        <h4 className="hidden md:block">আল হেরা ইন্টারন্যাশনাল মাদ্রাসা</h4>
       </div>
     </div>
   );
