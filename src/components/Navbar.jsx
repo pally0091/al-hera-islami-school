@@ -6,7 +6,10 @@ const NavLogo = () => {
         src="/Logo.png"
         alt="Al Hera Logo"
       />
-      <h1>Al Hera Intl Madrasah</h1>
+      <div className="text-left">
+        <h1>Al Hera International Madrasah</h1>
+        <h3 className="hidden md:block">আল হেরা ইন্টারন্যাশনাল মাদ্রাসা</h3>
+      </div>
     </div>
   );
 };
