@@ -1,15 +1,12 @@
 import "./App.css";
+import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
       <Navbar />
-
-      <div className=" border border-black">
-        <h6>Coming Soon</h6>
-        <h6>Coming Soon</h6>
-      </div>
+      <Banner />
     </>
   );
 }
