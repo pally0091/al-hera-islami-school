@@ -3,7 +3,7 @@ const WhyChooseUs = () => {
     <section>
       <h2 className="text-center mb-8">কেন আমাদের বেছে নিবেন?</h2>
       <div className="grid gap-8 grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto">
-        <div className="border border-[#2d8c7c] p-4 hover:shadow-md hover:shadow-[#2d8c7c] transition-all duration-500 cursor-default bg-white rounded-sm">
+        <div className="border border-accent p-4 hover:shadow-md hover:shadow-accent transition-all duration-500 cursor-default bg-white rounded-sm">
           <h4 className="font-semibold mb-4">সর্বাঙ্গীণ শিক্ষা</h4>
           <p className="leading-relaxed">
             আমাদের মাদ্রাসা আধুনিক শিক্ষা ও ধর্মীয় শিক্ষার সমন্বয়ে একটি
@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
             আধ্যাত্মিক জ্ঞানার্জনে সহায়তা করা আমাদের মূল লক্ষ্য।
           </p>
         </div>
-        <div className="border border-[#2d8c7c] p-4 hover:shadow-md hover:shadow-[#2d8c7c] transition-all duration- cursor-default bg-white rounded-sm">
+        <div className="border border-accent p-4 hover:shadow-md hover:shadow-accent transition-all duration- cursor-default bg-white rounded-sm">
           <h4 className="font-semibold mb-4">অভিজ্ঞ শিক্ষকবৃন্দ</h4>
           <p className="leading-relaxed">
             আমাদের শিক্ষকমণ্ডলী উচ্চ শিক্ষিত ও অভিজ্ঞ, যারা শিক্ষার্থীদের
@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
             উন্নতি নিশ্চিত করতে নিবেদিত।
           </p>
         </div>
-        <div className="border border-[#2d8c7c] p-4 hover:shadow-md hover:shadow-[#2d8c7c] transition-all duration- cursor-default bg-white rounded-sm">
+        <div className="border border-accent p-4 hover:shadow-md hover:shadow-accent transition-all duration- cursor-default bg-white rounded-sm">
           <h4 className="font-semibold mb-4">নৈতিক ও আধ্যাত্মিক বিকাশ</h4>
           <p className="leading-relaxed">
             আমরা শিক্ষার্থীদের নৈতিকতা ও আধ্যাত্মিক উন্নতির উপর বিশেষ গুরুত্ব
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
             আদর্শ মানুষ হয়ে উঠতে পারে।
           </p>
         </div>
-        <div className="border border-[#2d8c7c] p-4 hover:shadow-md hover:shadow-[#2d8c7c] transition-all duration- cursor-default bg-white rounded-sm">
+        <div className="border border-accent p-4 hover:shadow-md hover:shadow-accent transition-all duration- cursor-default bg-white rounded-sm">
           <h4 className="font-semibold mb-4">সুন্দর শিক্ষাবান্ধব পরিবেশ</h4>
           <p className="leading-relaxed">
             শিক্ষার্থীদের জন্য একটি সুরক্ষিত, শান্তিপূর্ণ এবং শিক্ষাবান্ধব
