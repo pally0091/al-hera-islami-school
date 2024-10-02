@@ -1,7 +1,10 @@
 const Banner = () => {
   return (
     <div>
-      <p>This is banner section</p>
+      <img
+        src="/public/Al Hera Fb.jpg"
+        alt="Banner"
+      />
     </div>
   );
 };

@@ -15,7 +15,7 @@ const NavLogo = () => {
 };
 const Navbar = () => {
   return (
-    <nav className="p-5 bg-[#2d8c7c] bg-opacity-50 w-full justify-between items-center sticky top-0 backdrop-blur-md">
+    <nav className="p-5 bg-[#2d8c7c] bg-opacity-50 w-full justify-between items-center sticky top-0 backdrop-blur-md z-10">
       <NavLogo />
     </nav>
   );
