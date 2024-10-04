@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
         {data.map((r, index) => (
           <div
             key={index}
-            className="border border-accent p-4 hover:shadow-md hover:shadow-accent transition-all duration-500 cursor-default bg-white rounded-sm"
+            className="border border-accent p-4 hover:shadow-md hover:shadow-accent transition-all duration-500 cursor-default bg-white rounded-md"
           >
             <h4 className="font-semibold mb-4">{r.title}</h4>
             <p className="leading-relaxed">{r.detail}</p>
