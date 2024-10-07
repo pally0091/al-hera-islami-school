@@ -7,8 +7,10 @@ const NavLogo = () => {
         alt="Al Hera Logo"
       />
       <div className="text-left">
-        <h1>Al Hera International Madrasah</h1>
-        <h4 className="hidden md:block">আল হেরা ইন্টারন্যাশনাল মাদরাসা</h4>
+        <h1>Al Hera International School & Madrasah</h1>
+        <h4 className="hidden md:block">
+          আল হেরা ইন্টারন্যাশনাল স্কুল এন্ড মাদরাসা
+        </h4>
       </div>
     </div>
   );
