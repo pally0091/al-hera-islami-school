@@ -1,4 +1,5 @@
 import { programs } from "../data/programs";
+import { motion } from "framer-motion";
 
 const ProgramsCurriculum = () => {
   return (
@@ -6,8 +7,10 @@ const ProgramsCurriculum = () => {
       <h2 className="font-bold mb-10">প্রোগ্রাম ও পাঠ্যক্রম</h2>
       <div className="flex flex-col gap-8 max-w-4xl mx-auto">
         {programs.map((program, index) => (
-          <div
+          <motion.div
             key={index}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
             className="relative programs pb-4 cursor-pointer"
           >
             <h4 className="font-semibold mb-4 hover:text-primary">
@@ -15,7 +18,7 @@ const ProgramsCurriculum = () => {
             </h4>
             <p className="leading-relaxed">{program.description}</p>
             <div className="absolute bottom-0 left-0 w-0 h-[2px] bg-primary transition-all duration-500 ease-in-out underline"></div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>
