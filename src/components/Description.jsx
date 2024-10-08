@@ -8,7 +8,7 @@ const DescriptionSection = () => {
   return (
     <section>
       <h2 className="font-bold text-primary mb-6">
-        আল হেরা ইন্টারন্যাশনাল মাদ্রাসা সম্পর্কে
+        আল হেরা ইন্টারন্যাশনাল স্কুল ও মাদ্রাসা সম্পর্কে
       </h2>
       <p className="text-left leading-relaxed max-w-4xl mx-auto">
         <strong>আল হেরা ইন্টারন্যাশনাল স্কুল ও মাদ্রাসা</strong> বিশ্বমানের
