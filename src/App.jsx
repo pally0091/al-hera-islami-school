@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import LocationContact from "./components/Contact";
 import DescriptionSection from "./components/Description";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -14,6 +15,7 @@ function App() {
       <DescriptionSection />
       <ProgramsCurriculum />
       <WhyChooseUs />
+      <LocationContact />
       <Footer />
     </>
   );
