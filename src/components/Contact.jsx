@@ -59,7 +59,7 @@ const LocationContact = () => {
                 href="https://www.facebook.com/a.h.i.madrasah"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary border border-white p-1 rounded-md hover:border-black transition-all duration-500"
+                className="text-primary border border-white p-1 rounded-md hover:border-primary transition-all duration-500"
               >
                 <AiFillFacebook className="text-3xl" />
               </a>{" "}
@@ -67,7 +67,7 @@ const LocationContact = () => {
                 href="https://www.youtube.com/@alheraintlmadrasah"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-red-600 border border-white p-1 rounded-md hover:border-black transition-all duration-500"
+                className="text-red-600 border border-white p-1 rounded-md hover:border-red-600 transition-all duration-500"
               >
                 <IoLogoYoutube className="text-3xl" />
               </a>
