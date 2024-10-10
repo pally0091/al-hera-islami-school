@@ -3,7 +3,10 @@ import { motion } from "framer-motion";
 
 const ProgramsCurriculum = () => {
   return (
-    <section className="bg-gray-50 text-left py-12 px-6 md:px-20">
+    <section
+      className="bg-gray-50 text-left py-12 px-6 md:px-20"
+      aria-labelledby="programs-heading"
+    >
       <h2 className="font-bold mb-10">প্রোগ্রাম ও পাঠ্যক্রম</h2>
       <div className="flex flex-col gap-8 max-w-4xl mx-auto">
         {programs.map((program, index) => (
