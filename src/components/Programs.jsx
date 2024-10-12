@@ -10,12 +10,13 @@ const ProgramsCurriculum = () => {
         aria-labelledby="programs-heading"
       >
         <h2 className="font-bold mb-10">প্রোগ্রাম ও পাঠ্যক্রম</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[750px] mx-auto">
           {programs.map((program, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
               className="relative programs pb-4 cursor-pointer"
             >
               <h4 className="font-semibold mb-4 hover:text-primary">

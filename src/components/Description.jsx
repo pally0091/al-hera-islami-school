@@ -1,3 +1,5 @@
+import Marquee from "react-fast-marquee";
+
 const offers = [
   " সাধারণ শিক্ষার পাশাপাশি ধর্মীয় শিক্ষা সমন্বিত একটি পূর্ণাঙ্গ পাঠ্যক্রম।",
   "নৈতিক ও আধ্যাত্মিক বিকাশে মনোনিবেশকৃত একটি সুরক্ষিত শিক্ষাবান্ধব পরিবেশ।",
@@ -29,9 +31,22 @@ const DescriptionSection = () => {
         আমরা এমন ব্যাক্তিত্ব গঠন করি যারা শিক্ষায় উৎকর্ষতা অর্জন করে এবং ইসলামী
         মূল্যবোধের মধ্যে দৃঢ় থাকে।
       </p>
-      <p className="mt-8 text-2xl font-semibold text-accent">
-        জ্ঞান ও ঈমানের পথে আমাদের সাথে চলুন!
-      </p>
+      <Marquee
+        pauseOnHover={true}
+        speed={50}
+        gradient={true}
+        gradientColor="#f3f4f6"
+        gradientWidth={20}
+        style={{
+          color: "#2d8c7c",
+          fontWeight: "bold",
+          fontSize: "1.2rem",
+          marginTop: "1rem",
+        }}
+      >
+        যতটুকু পড়বো ভালোভাবে পড়বো, English Arabic ভালোভাবে শিখবো, ইসলামী কায়দায়
+        জীবন গড়বো।
+      </Marquee>
     </section>
   );
 };
