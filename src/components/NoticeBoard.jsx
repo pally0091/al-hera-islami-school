@@ -11,7 +11,7 @@ const Notice = ({ data }) => {
 
 export default function NoticeBoard() {
   return (
-    <div className="bg-green-100 text-left py-8 px-6 max-h-[55vh] overflow-y-scroll max-w-[450px] w-full">
+    <div className="bg-green-100 text-left py-8 px-6 max-h-[55vh] overflow-y-scroll max-w-[450px] w-full mx-auto">
       <h4>NoticeBoard</h4>
       {notices.map((notice, index) => (
         <Notice

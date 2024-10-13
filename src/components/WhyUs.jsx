@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
     <section>
       <h2 className="text-center mb-8">কেন আমাদের বেছে নিবেন?</h2>
       <Speciality />
-      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 max-w-[950px] mx-auto">
+      <div className="grid gap-2 grid-cols-1 md:grid-cols-2 max-w-[950px] mx-auto">
         {data.map((r, index) => (
           <div
             key={index}
