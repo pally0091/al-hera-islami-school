@@ -1,5 +1,10 @@
 import Marquee from "react-fast-marquee";
 import { data } from "../data/whyus";
+import { BiSolidSchool } from "react-icons/bi";
+import { MdOutlineMenuBook } from "react-icons/md";
+import { GrNotes } from "react-icons/gr";
+import { TbAirConditioning } from "react-icons/tb";
+import { GiCctvCamera } from "react-icons/gi";
 
 const Speciality = () => {
   return (
@@ -7,21 +12,26 @@ const Speciality = () => {
       className="text-center my-5 rounded-md"
       gradient={true}
       gradientColor="#2d8c7c"
-      gradientWidth={25}
+      gradientWidth={15}
     >
-      <p className="bg-accent bg-opacity-25 p-1 text-accent mx-5 w-64 rounded-md font-semibold">
+      <p className="bg-accent bg-opacity-25 p-1 text-accent mx-5 w-64 rounded-md font-semibold flex items-center justify-center gap-2">
+        <BiSolidSchool />
         Smart Campus
       </p>
-      <p className="bg-accent bg-opacity-25 p-1 text-accent mx-5 w-64 rounded-md font-semibold">
+      <p className="bg-accent bg-opacity-25 p-1 text-accent mx-5 w-64 rounded-md font-semibold flex items-center justify-center gap-2">
+        <MdOutlineMenuBook />
         Quality Education
       </p>
-      <p className="bg-accent bg-opacity-25 p-1 text-accent mx-5 w-64 rounded-md font-semibold">
+      <p className="bg-accent bg-opacity-25 p-1 text-accent mx-5 w-64 rounded-md font-semibold flex items-center justify-center gap-2">
+        <GrNotes />
         Combined Syllabus
       </p>
-      <p className="bg-accent bg-opacity-25 p-1 text-accent mx-5 w-64 rounded-md font-semibold">
+      <p className="bg-accent bg-opacity-25 p-1 text-accent mx-5 w-64 rounded-md font-semibold flex items-center justify-center gap-2">
+        <TbAirConditioning />
         Airconditioned Room
       </p>
-      <p className="bg-accent bg-opacity-25 p-1 text-accent mx-5 w-64 rounded-md font-semibold">
+      <p className="bg-accent bg-opacity-25 p-1 text-accent mx-5 w-64 rounded-md font-semibold flex items-center justify-center gap-2">
+        <GiCctvCamera />
         CC Camera Monitoring
       </p>
     </Marquee>
@@ -32,14 +42,13 @@ const WhyChooseUs = () => {
     <section>
       <h2 className="text-center mb-8">কেন আমাদের বেছে নিবেন?</h2>
       <Speciality />
-      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto">
+      <div className="grid gap-8 grid-cols-1 md:grid-cols-2 max-w-[950px] mx-auto">
         {data.map((r, index) => (
           <div
             key={index}
-            className="border border-accent p-4 hover:shadow-md hover:shadow-accent hover:scale-105 transition-all duration-500 cursor-default bg-white rounded-md"
+            className="border border-accent bg-accent bg-opacity-20 p-4 hover:shadow-md hover:shadow-accent hover:scale-105 transition-all duration-500 cursor-default rounded-md hover:bg-secondary"
           >
-            <h4 className="font-semibold mb-4">{r.title}</h4>
-            <p className="leading-relaxed">{r.detail}</p>
+            <p className="leading-relaxed font-semibold">{r}</p>
           </div>
         ))}
       </div>
