@@ -8,7 +8,7 @@ const Downloads = () => {
         </div>
         <div className="w-full md:w-1/2 border border-secondary p-2 rounded-md">
           <h5 className="text-primary font-semibold underline">
-            সিলেবাস ও পাঠ পরিকল্পনা
+            পাঠ পরিকল্পনা
           </h5>
         </div>
       </div>
