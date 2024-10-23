@@ -13,6 +13,48 @@ const testimonials = [
     feedback:
       "I'm very happy with my decision to enroll my twin sons in Al Hera International School and Madrasa. They are doing very well in all subjects and the teachers are excellent. I highly recommend this school.",
   },
+  {
+    name: "Shahanaj Akter",
+    relation: "Mother",
+    student: "Redoan Mostofa Raian",
+    feedback:
+      "The parent is very happy with their child's progress at Al Hera International School and Madrasa. They are grateful for the teachers' efforts and the institution's focus on both general and religious education. They believe that the school has provided their child with a good foundation for the future.",
+  },
+  {
+    name: "Swarna Islam",
+    relation: "Mother",
+    student: "Md. Raiyan Islam",
+    feedback:
+      "Alhamdulillah, I'm so thankful to Allah for letting my child study at Al Hera. All the teachers teach so well and make sure we finish most of the lessons in class. I'm really grateful to Al Hera for letting me teach my child at home and for the teachers' amazing teaching. I hope Al Hera keeps doing well and gets better and better.",
+  },
+  {
+    name: "Romiz Uddin",
+    relation: "Father",
+    student: "Nuzhayr Uddin",
+    feedback:
+      "I'm really happy with how my child is learning at Al Hera. The teachers are so caring and make sure my child finishes all their work in class. The school teaches both regular and Islamic subjects, which is great. I hope Al Hera keeps doing well in the future.",
+  },
+  {
+    name: "Mawlana Salim Ahmad",
+    relation: "Father",
+    student: "Md. Safwan",
+    feedback:
+      "I'm really happy with how my child is learning at Al Hera. The teachers are so caring and make sure my child finishes all their work in class. The school teaches both regular and Islamic subjects, which is great. I hope Al Hera keeps doing well in the future.",
+  },
+  {
+    name: "Farzana Mondal Niva",
+    relation: "Mother",
+    student: "Md. Furqan Al-Wasi",
+    feedback:
+      "I'm very pleased with the progress my child has made at Al Hera. The teachers are dedicated and supportive, and the curriculum is well-rounded. I appreciate the school's emphasis on both academic and Islamic education. I hope Al Hera continues to provide such a positive learning environment for students.",
+  },
+  {
+    name: "Sathi Begum",
+    relation: "Mother",
+    student: "Ibrahim Ahmed Abid",
+    feedback:
+      "I'm so glad I chose Al Hera for my son! The teachers are amazing and my son is learning so much. It's great that he memorizes his lessons in class, so we don't need a private tutor.",
+  },
 ];
 
 // Get the container where the testimonials will be injected
