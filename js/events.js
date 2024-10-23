@@ -21,7 +21,7 @@ function renderEvents() {
   events.forEach((event) => {
     // Create the HTML structure for each event
     const eventHTML = `
-        <div class="row g-4 event-item">
+        <div class="row g-4 event-item wow fadeIn" data-wow-delay="0.5s">
           <div class="col-3 col-lg-2 pe-0">
             <div class="text-center border-bottom border-dark py-3 px-2">
               <h6>${event.date}</h6>
