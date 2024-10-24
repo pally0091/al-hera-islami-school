@@ -55,6 +55,13 @@ const testimonials = [
     feedback:
       "I'm so glad I chose Al Hera for my son! The teachers are amazing and my son is learning so much. It's great that he memorizes his lessons in class, so we don't need a private tutor.",
   },
+  {
+    name: "Fahmida Akter",
+    relation: "Mother",
+    student: "Nishat Tasnim",
+    feedback:
+      "I'm so happy with Al Hera! My kids are doing great and learning so much, especially about Islam. I love that the school helps out with stuff like tiffin when my kids forget to bring their own. Overall, I'm really happy with their education here.",
+  },
 ];
 
 // Get the container where the testimonials will be injected
