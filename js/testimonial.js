@@ -91,9 +91,7 @@ function renderTestimonials() {
     const testimonialHTML = `
         <div class="testimonial-item">
           <div class="d-flex mb-3">
-            <div style="width: 80px; height: 80px; overflow: hidden; border-radius: 50%;">
-              <img class="img-fluid rounded-circle" src=${testimonial.image} alt=${testimonial.name}>
-            </div>
+            
             <div class="ps-3 my-auto">
               <h5 class="mb-0">${testimonial.name}</h5>
               <p class="m-0">${testimonial.relation} of <b>${testimonial.student}</b></p>
