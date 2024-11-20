@@ -11,6 +11,12 @@ const events = [
     description:
       "The Annual Exam results will be published at Al Hera International School & Madrasah. We celebrate the hard work and progress of our students. Best wishes to all!",
   },
+  {
+    date: "1 Jan 2025",
+    title: "New Campus Grand Opening",
+    description:
+      "We are excited to announce the grand opening of our new campus at Al Hera International School & Madrasah. Join us to celebrate this milestone as we continue to expand and provide quality education in a modern and Islamic environment. Welcome to the future of learning!",
+  },
 ];
 
 // Get the container where the events will be injected
