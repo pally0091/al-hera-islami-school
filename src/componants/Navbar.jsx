@@ -29,7 +29,7 @@ const DesktopNav = () => {
         >
           <NavLink
             to={link.path}
-            className="text-gray-700 transition duration-300 px-2 py-1 rounded-md hover:bg-gray-200"
+            className="text-gray-700 transition duration-300 px-3 py-2 rounded-md hover:bg-gray-200"
           >
             {link.name}
           </NavLink>
