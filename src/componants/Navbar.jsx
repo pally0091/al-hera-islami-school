@@ -2,23 +2,20 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { RiCloseLargeFill } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
 
 // Navigation links
 const navLinks = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
+  { name: "Activities", path: "/activities" },
   { name: "Contact", path: "/contact" },
-  { name: "Blog", path: "/blog" },
 ];
 
 // Framer Motion Variants
 const mobileMenuVariants = {
   hidden: { height: 0, opacity: 0 },
   visible: { height: "auto", opacity: 1, transition: { duration: 0.4 } },
-};
-
-const linkHover = {
-  hover: { scale: 1.1, color: "#2563eb" }, // Tailwind's blue-600
 };
 
 // Desktop Navigation
@@ -30,13 +27,12 @@ const DesktopNav = () => {
           key={index}
           whileHover="hover"
         >
-          <motion.a
-            href={link.path}
-            className="text-gray-700 transition duration-300"
-            variants={linkHover}
+          <NavLink
+            to={link.path}
+            className="text-gray-700 transition duration-300 px-2 py-1 rounded-md hover:bg-gray-200"
           >
             {link.name}
-          </motion.a>
+          </NavLink>
         </motion.li>
       ))}
     </ul>
@@ -44,7 +40,7 @@ const DesktopNav = () => {
 };
 
 // Mobile Navigation
-const MobileNav = ({ isOpen }) => {
+const MobileNav = ({ isOpen, setIsOpen }) => {
   return (
     <motion.div
       initial="hidden"
@@ -58,13 +54,13 @@ const MobileNav = ({ isOpen }) => {
             key={index}
             whileHover="hover"
           >
-            <motion.a
-              href={link.path}
+            <NavLink
+              to={link.path}
               className="block text-gray-700 transition duration-300"
-              variants={linkHover}
+              onClick={() => setIsOpen(false)}
             >
               {link.name}
-            </motion.a>
+            </NavLink>
           </motion.li>
         ))}
       </ul>
@@ -105,7 +101,10 @@ const Navbar = () => {
             {isOpen ? <RiCloseLargeFill /> : <HiMenuAlt4 />}
           </button>
           {/* Mobile Menu */}
-          <MobileNav isOpen={isOpen} />
+          <MobileNav
+            isOpen={isOpen}
+            setIsOpen={setIsOpen}
+          />
         </div>
       </div>
     </nav>

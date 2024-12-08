@@ -3,3 +3,7 @@
   margin: 0 auto;
   text-align: center;
 }
+a.active {
+  background-color: #08796b;
+  color: white;
+}

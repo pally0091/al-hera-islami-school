@@ -17,6 +17,14 @@ function App() {
           path: "/about",
           element: <h1>About</h1>,
         },
+        {
+          path: "/activities",
+          element: <h1>Activities</h1>,
+        },
+        {
+          path: "/contact",
+          element: <h1>Contact</h1>,
+        },
       ],
     },
   ]);
