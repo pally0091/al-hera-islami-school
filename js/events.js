@@ -5,6 +5,12 @@ const events = [
     description:
       "We are excited to announce the grand opening of our new campus at Al Hera International School & Madrasah. Join us to celebrate this milestone as we continue to expand and provide quality education in a modern and Islamic environment. Welcome to the future of learning!",
   },
+  {
+    date: "9 Jan 2025",
+    title: "Orientation Class",
+    description:
+      "Join us for the orientation class at Al Hera International School & Madrasah to welcome our new students and parents. This session will provide an overview of our school policies, academic programs, and facilities. We look forward to seeing you there!",
+  },
 ];
 
 // Get the container where the events will be injected
