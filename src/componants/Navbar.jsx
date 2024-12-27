@@ -82,7 +82,7 @@ const Navbar = () => {
             alt="Logo"
             className="w-10 h-10 object-cover"
           />
-          <span className="text-2xl font-bold text-brandGreen">
+          <span className="text-xl md:text-3xl font-bold text-brandGreen">
             Al Hera Int`l School & Madrasah
           </span>
         </div>
