@@ -73,41 +73,43 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-b border-gray-200 px-4 py-3 relative">
-      <div className="container mx-auto flex items-center justify-between">
-        {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <img
-            src="/img/LOGO.png"
-            alt="Logo"
-            className="w-10 h-10 object-cover"
-          />
-          <span className="text-xl md:text-3xl font-bold text-brandGreen">
-            Al Hera Int`l School & Madrasah
-          </span>
-        </div>
+    <div className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+      <nav className="bg-white border-b border-gray-200 px-4 py-3 relative0">
+        <div className="container mx-auto flex items-center justify-between">
+          {/* Logo */}
+          <div className="flex items-center space-x-2">
+            <img
+              src="/img/LOGO.png"
+              alt="Logo"
+              className="w-10 h-10 object-cover"
+            />
+            <span className="text-xl md:text-3xl font-bold text-brandGreen">
+              Al Hera Int`l School & Madrasah
+            </span>
+          </div>
 
-        {/* Desktop Navigation */}
-        <div className="hidden lg:block">
-          <DesktopNav />
-        </div>
+          {/* Desktop Navigation */}
+          <div className="hidden lg:block">
+            <DesktopNav />
+          </div>
 
-        {/* Mobile Navigation Toggle */}
-        <div className="block lg:hidden">
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="text-gray-700 bg-gray-100 rounded-md p-2"
-          >
-            {isOpen ? <RiCloseLargeFill /> : <HiMenuAlt4 />}
-          </button>
-          {/* Mobile Menu */}
-          <MobileNav
-            isOpen={isOpen}
-            setIsOpen={setIsOpen}
-          />
+          {/* Mobile Navigation Toggle */}
+          <div className="block lg:hidden">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-gray-700 bg-gray-100 rounded-md p-2"
+            >
+              {isOpen ? <RiCloseLargeFill /> : <HiMenuAlt4 />}
+            </button>
+            {/* Mobile Menu */}
+            <MobileNav
+              isOpen={isOpen}
+              setIsOpen={setIsOpen}
+            />
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 };
 
