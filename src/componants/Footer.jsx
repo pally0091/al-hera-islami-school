@@ -1,7 +1,9 @@
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const presentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-gray-950 text-white py-8">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 py-6">
@@ -21,10 +23,12 @@ const Footer = () => {
         <div className="text-center md:text-right">
           <h3 className="text-xl font-bold mb-4">Our Location</h3>
           <p className="text-gray-400">
-            Campus 1: H-1, R-2, Block-F, Mirpur-1, Dhaka
+            Campus 1: House-1, Road-2, Block-F <br />
+            Mirpur-1, Dhaka
           </p>
           <p className="text-gray-400">
-            Campus 2: H-13, R-2, Block-F, Mirpur-1, Dhaka
+            Campus 2: House-13, Road-2, Block-F <br />
+            Mirpur-1, Dhaka
           </p>
           <a
             className="text-gray-400 hover:text-green-500 transition-colors duration-300"
@@ -70,7 +74,7 @@ const Footer = () => {
           <h3 className="text-xl font-bold mb-4">Follow Us</h3>
           <div className="flex space-x-4 justify-center">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/a.h.i.madrasah"
               className="text-gray-400 hover:text-blue-600 transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"
@@ -78,31 +82,33 @@ const Footer = () => {
               <FaFacebook size={24} />
             </a>
             <a
-              href="https://twitter.com"
-              className="text-gray-400 hover:text-blue-400 transition-colors duration-300"
+              href="https://www.youtube.com/@alheraintlmadrasah"
+              className="text-gray-400 hover:text-red-600 transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub size={24} />
+              <FaYoutube size={24} />
             </a>
             <a
-              href="https://linkedin.com"
-              className="text-gray-400 hover:text-blue-800 transition-colors duration-300"
+              href="https://api.whatsapp.com/send?phone=8801818343879"
+              className="text-gray-400 hover:text-green-600 transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={24} />
+              <FaWhatsapp size={24} />
             </a>
           </div>
         </div>
       </div>
 
       <div className="mt-8 text-center border-t border-gray-700 pt-4 text-gray-400">
-        © Al Hera Intl School & Madrasah, All Rights Reserved.
+        © 2023-{presentYear} Al Hera Intl School & Madrasah, All Rights
+        Reserved.
         <br />
         Designed | Created by{" "}
         <a
-          href="#"
+          href="https://github.com/pally0091/"
+          target="_blank"
           className="text-green-500 hover:underline"
         >
           R-Frontline

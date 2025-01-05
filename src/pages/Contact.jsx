@@ -51,27 +51,31 @@ const ContactForm = () => {
 const ContactInfo = () => {
   return (
     <motion.div
-      className="text-white p-6 rounded-lg shadow-lg bg-gradient-to-br from-brandGreen to-brandBlue flex flex-col gap-3 justify-center"
+      className="text-white p-6 rounded-lg shadow-lg bg-gradient-to-br from-brandGreen to-brandBlue flex flex-col items-center gap-3 justify-center text-justify "
       initial={{ opacity: 0, x: -50 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
-      <a
-        className="text-lg"
-        href="tel:+8801818343879"
-      >
-        📞 Phone: +880-1818343879
-      </a>
-      <a
-        className="text-lg mt-2"
-        href="mailto:alheraintlschool.madrasah@gmail.com"
-      >
-        📧 Email: alheraintlschool.madrasah@gmail.com
-      </a>
-      <p className="text-lg mt-2">
-        🏠 Address: House-01, Road-02, Block-F, Mirpur-1, Dhaka
-      </p>
+      <div className="flex flex-col justify-center gap-2 text-left">
+        <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
+        <a
+          className="text-lg"
+          href="tel:+8801818343879"
+        >
+          📞 Phone: +880-1818343879
+        </a>
+        <a
+          className="text-lg mt-2"
+          href="mailto:alheraintlschool.madrasah@gmail.com"
+        >
+          📧 Email: alheraintlschool.madrasah@gmail.com
+        </a>
+        <p className="text-lg mt-2">
+          🏠 Address: <br />
+          House-01, Road-02, Block-F, Mirpur-1, Dhaka <br />
+          House-13, Road-02, Block-F, Mirpur-1, Dhaka
+        </p>
+      </div>
     </motion.div>
   );
 };
