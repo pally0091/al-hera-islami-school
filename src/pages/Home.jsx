@@ -37,7 +37,7 @@ const Banner = () => {
           Welcome to{" "}
           <span className="text-yellow-300">Al Hera Intl School</span>
         </h1>
-        <p className="text-lg lg:text-2xl mt-4">
+        <p className="text-lg lg:text-2xl mt-4 px-2 lg:px-0">
           A modern Islamic school ensuring quality education and values.
         </p>
         <Link

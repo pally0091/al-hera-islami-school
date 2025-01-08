@@ -51,7 +51,7 @@ const ContactForm = () => {
 const ContactInfo = () => {
   return (
     <motion.div
-      className="text-white p-6 rounded-lg shadow-lg bg-gradient-to-br from-brandGreen to-brandBlue flex flex-col items-center gap-3 justify-center text-justify "
+      className="text-white p-6 rounded-lg shadow-lg bg-gradient-to-br from-brandGreen to-amber-700 flex flex-col items-center gap-3 justify-center text-justify "
       initial={{ opacity: 0, x: -50 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
