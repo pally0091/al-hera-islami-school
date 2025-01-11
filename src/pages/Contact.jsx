@@ -32,7 +32,7 @@ const ContactForm = () => {
         <motion.textarea
           placeholder="Message"
           required
-          className="border border-gray-300 rounded-md p-2 h-32 focus:ring-2 focus:ring-brandGreen outline-none resize-none"
+          className="border border-gray-300 rounded-md p-2 h-40 focus:ring-2 focus:ring-brandGreen outline-none resize-none"
           whileFocus={{ scale: 1.02 }}
         ></motion.textarea>
         <motion.button
@@ -51,7 +51,7 @@ const ContactForm = () => {
 const ContactInfo = () => {
   return (
     <motion.div
-      className="text-white p-6 rounded-lg shadow-lg bg-gradient-to-br from-brandGreen to-amber-700 flex flex-col items-center gap-3 justify-center text-justify "
+      className="text-white p-6 rounded-lg shadow-lg bg-brandBlue flex flex-col items-center gap-3 justify-center text-justify "
       initial={{ opacity: 0, x: -50 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
@@ -82,7 +82,7 @@ const ContactInfo = () => {
 
 const Contact = () => {
   return (
-    <div className="p-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
+    <div className="p-4 grid grid-cols-1 lg:grid-cols-2 gap-4 container">
       <ContactForm />
       <ContactInfo />
     </div>

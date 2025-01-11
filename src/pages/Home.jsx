@@ -57,7 +57,7 @@ const Banner = () => {
 const AboutSection = () => {
   return (
     <motion.section
-      className="my-10"
+      className="my-10 container"
       initial="hidden"
       whileInView="visible"
       variants={fadeInUp}
