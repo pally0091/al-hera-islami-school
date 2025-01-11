@@ -44,7 +44,7 @@ const Banner = () => {
         </p>
         <Link
           to="/about"
-          className="inline-block mt-6 px-6 py-3 bg-brandGold text-lg font-medium rounded-full shadow-lg hover:bg-yellow-500 hover:scale-105 transition-all duration-300 text-brandGreen"
+          className="inline-block mt-6 px-6 py-3 bg-brandGold text-lg font-medium rounded-full shadow-lg hover:bg-yellow-600 hover:scale-105 transition-all duration-300 text-brandGreen"
         >
           Learn More
         </Link>
