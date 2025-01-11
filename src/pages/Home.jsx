@@ -35,14 +35,16 @@ const Banner = () => {
         />
         <h1 className="text-4xl lg:text-6xl font-bold">
           Welcome to{" "}
-          <span className="text-yellow-300">Al Hera Intl School</span>
+          <span className="text-brandGold">
+            Al Hera Int`l School & Madrasah
+          </span>
         </h1>
         <p className="text-lg lg:text-2xl mt-4 px-2 lg:px-0">
           A modern Islamic school ensuring quality education and values.
         </p>
         <Link
           to="/about"
-          className="inline-block mt-6 px-6 py-3 bg-yellow-400 text-lg font-medium rounded-full shadow-lg hover:bg-yellow-500 hover:scale-105 transition-all duration-300 text-brandGreen"
+          className="inline-block mt-6 px-6 py-3 bg-brandGold text-lg font-medium rounded-full shadow-lg hover:bg-yellow-500 hover:scale-105 transition-all duration-300 text-brandGreen"
         >
           Learn More
         </Link>
