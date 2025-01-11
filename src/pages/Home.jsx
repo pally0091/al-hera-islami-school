@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { fadeInUp } from "../componants/Animation";
 
 const Banner = () => {
   return (
@@ -53,10 +54,80 @@ const Banner = () => {
   );
 };
 
+const AboutSection = () => {
+  return (
+    <motion.section
+      className="my-10"
+      initial="hidden"
+      whileInView="visible"
+      variants={fadeInUp}
+    >
+      <div className="container mx-auto py-12">
+        <h2 className="text-3xl lg:text-5xl font-bold text-center">About Us</h2>
+        <p className="text-lg lg:text-2xl mt-4 px-2 lg:px-0 text-center">
+          Al Hera International School & Madrasah is a modern Islamic school
+          that ensures quality education and values.
+        </p>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-12">
+          <motion.div
+            className="bg-white shadow-lg p-6 rounded-lg"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <img
+              src="/img/about-1.jpeg"
+              alt="About 1"
+              className="w-full h-48 object-cover rounded-lg"
+            />
+            <h3 className="text-xl lg:text-2xl font-bold mt-4">Our Vision</h3>
+            <p className="text-lg mt-2">
+              To be a leading Islamic school that provides quality education and
+              values.
+            </p>
+          </motion.div>
+          <motion.div
+            className="bg-white shadow-lg p-6 rounded-lg"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <img
+              src="/img/about-2.jpeg"
+              alt="About 2"
+              className="w-full h-48 object-cover rounded-lg"
+            />
+            <h3 className="text-xl lg:text-2xl font-bold mt-4">Our Mission</h3>
+            <p className="text-lg mt-2">
+              To provide a conducive learning environment that nurtures
+              student&apos;s intellectual, emotional, and spiritual growth.
+            </p>
+          </motion.div>
+          <motion.div
+            className="bg-white shadow-lg p-6 rounded-lg"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <img
+              src="/img/about-3.jpeg"
+              alt="About 3"
+              className="w-full h-48 object-cover rounded-lg"
+            />
+            <h3 className="text-xl lg:text-2xl font-bold mt-4">Our Values</h3>
+            <p className="text-lg mt-2">
+              We are committed to providing quality education, fostering Islamic
+              values, and promoting excellence in all aspects of life.
+            </p>
+          </motion.div>
+        </div>
+      </div>
+    </motion.section>
+  );
+};
+
 const Home = () => {
   return (
     <div>
       <Banner />
+      <AboutSection />
     </div>
   );
 };
