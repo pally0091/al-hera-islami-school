@@ -1,9 +1,27 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 const ContactForm = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted");
+    console.log("formData", formData);
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
   return (
     <div>
@@ -18,22 +36,31 @@ const ContactForm = () => {
         <motion.input
           type="text"
           placeholder="Name"
+          name="name"
           required
           className="border border-gray-300 rounded-md p-2 focus:ring-2 focus:ring-brandGreen outline-none"
           whileFocus={{ scale: 1.02 }}
+          onChange={(e) => handleChange(e)}
+          value={formData.name}
         />
         <motion.input
           type="email"
           placeholder="Email"
+          name="email"
           required
           className="border border-gray-300 rounded-md p-2 focus:ring-2 focus:ring-brandGreen outline-none"
           whileFocus={{ scale: 1.02 }}
+          onChange={(e) => handleChange(e)}
+          value={formData.email}
         />
         <motion.textarea
           placeholder="Message"
           required
           className="border border-gray-300 rounded-md p-2 h-40 focus:ring-2 focus:ring-brandGreen outline-none resize-none"
+          name="message"
           whileFocus={{ scale: 1.02 }}
+          onChange={(e) => handleChange(e)}
+          value={formData.message}
         ></motion.textarea>
         <motion.button
           type="submit"
