@@ -1,15 +1,9 @@
 const events = [
   {
-    date: "1 Jan 2025",
-    title: "New Campus Grand Opening",
+    date: "19 Feb 2025",
+    title: "Educational Study Tour",
     description:
-      "We are excited to announce the grand opening of our new campus at Al Hera International School & Madrasah. Join us to celebrate this milestone as we continue to expand and provide quality education in a modern and Islamic environment. Welcome to the future of learning!",
-  },
-  {
-    date: "9 Jan 2025",
-    title: "Orientation Class",
-    description:
-      "Join us for the orientation class at Al Hera International School & Madrasah to welcome our new students and parents. This session will provide an overview of our school policies, academic programs, and facilities. We look forward to seeing you there!",
+      "Join us for an exciting study tour to Shorif Food Court & Dream Park! This outdoor experience will provide students with a refreshing break while engaging in fun and educational activities. Don't miss out on this wonderful learning opportunity!",
   },
 ];
 
