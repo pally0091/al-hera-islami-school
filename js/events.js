@@ -1,9 +1,9 @@
 const events = [
   {
-    date: "19 Feb 2025",
-    title: "Educational Study Tour",
+    date: "01 Mar 2025",
+    title: "Class time change for Ramadan",
     description:
-      "Join us for an exciting study tour to Shorif Food Court & Dream Park! This outdoor experience will provide students with a refreshing break while engaging in fun and educational activities. Don't miss out on this wonderful learning opportunity!",
+      "During the month of Ramadan, classes will be held from 9:00 AM to 2:30 PM. Please note the change in timings. Ramadan Kareem!",
   },
 ];
 
