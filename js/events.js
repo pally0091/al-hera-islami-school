@@ -3,7 +3,7 @@ const events = [
     date: "13 May 2025",
     title: "1st Semester Exam",
     description:
-      "The 1st semester exam will be held from 13th to 20th May 2025. Students are advised to prepare well and check the schedule for their respective subjects.",
+      "The 1st semester exam will be held from 13th to 22th May 2025. Students are advised to prepare well and check the schedule for their respective subjects.",
   },
 ];
 
