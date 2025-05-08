@@ -1,9 +1,9 @@
 const events = [
   {
-    date: "01 Mar 2025",
-    title: "Class time change for Ramadan",
+    date: "13 May 2025",
+    title: "1st Semester Exam",
     description:
-      "During the month of Ramadan, classes will be held from 9:00 AM to 2:30 PM. Please note the change in timings. Ramadan Kareem!",
+      "The 1st semester exam will be held from 13th to 20th May 2025. Students are advised to prepare well and check the schedule for their respective subjects.",
   },
 ];
 
