@@ -1,9 +1,9 @@
 const events = [
   {
-    date: "13 May 2025",
-    title: "1st Semester Exam",
+    date: "14 July 2025",
+    title: "2nd Pre Semester Exam",
     description:
-      "The 1st semester exam will be held from 13th to 22th May 2025. Students are advised to prepare well and check the schedule for their respective subjects.",
+      "The 2nd pre semester exam will be held from 14th to 17th July 2025. Students are advised to prepare well and check the schedule for their respective subjects.",
   },
 ];
 
