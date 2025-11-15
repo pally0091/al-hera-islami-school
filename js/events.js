@@ -1,9 +1,15 @@
 const events = [
   {
-    date: "14 July 2025",
-    title: "2nd Pre Semester Exam",
+    date: "7 December 2025",
+    title: "Final Semester Exam",
     description:
-      "The 2nd pre semester exam will be held from 14th to 17th July 2025. Students are advised to prepare well and check the schedule for their respective subjects.",
+      "The final semester exam will be held from 7th to 15th December 2025. Students are advised to prepare well and check the schedule for their respective subjects.",
+  },
+  {
+    date: "10 January 2026",
+    title: "New year orientation program",
+    description:
+      "An orientation program for new students will be conducted on 10th January 2026. This program aims to familiarize new students with the campus, faculty, and academic expectations.",
   },
 ];
 
