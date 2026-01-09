@@ -1,5 +1,3 @@
-const { title } = require("process");
-
 const events = [
   {
     date: "11 January 2026",
