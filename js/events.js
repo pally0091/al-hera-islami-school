@@ -1,15 +1,17 @@
+const { title } = require("process");
+
 const events = [
   {
-    date: "7 December 2025",
-    title: "Final Semester Exam",
-    description:
-      "The final semester exam will be held from 7th to 15th December 2025. Students are advised to prepare well and check the schedule for their respective subjects.",
-  },
-  {
-    date: "10 January 2026",
+    date: "11 January 2026",
     title: "New year orientation program",
     description:
       "An orientation program for new students will be conducted on 10th January 2026. This program aims to familiarize new students with the campus, faculty, and academic expectations.",
+  },
+  {
+    date: "12 January 2026",
+    title: "New semester begins",
+    description:
+      "The new semester for the academic year 2026 will commence on 12th January 2026. Students are expected to attend their classes as per the schedule provided.",
   },
 ];
 
